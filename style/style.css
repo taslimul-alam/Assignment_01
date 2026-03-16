@@ -1,0 +1,44 @@
+#heading{
+    display: flex;
+    max-width: 1600px;
+    width: 100%;
+    background-color: #FFFFFF;
+    align-items: center;
+
+}
+#heading .logo{
+    display: flex;
+    margin-top: 16px;
+    margin-left: 120px;
+    flex-direction: column;
+}
+.logo .pic{
+    margin-top: 7px;
+    margin-bottom: 7px;
+}
+#heading .description{
+    display: flex;
+    list-style-type: none;
+    gap: 32px;
+    margin-top: 34px;
+    margin-left: 346px;
+    margin-right: 346px;
+    font-size: 16px;
+    font-weight: 500;
+    color: #000000;
+    
+}
+#heading .btn{
+    max-width: 164px;
+    height: 44px;
+    border-radius: 4px;
+    background-color: #278a50;
+    border: none;
+    font-size: 16px;
+    font-weight: 600;
+    color: #FFFFFF;
+    padding: 16px 12px;
+    margin-top: 24px;
+    margin-bottom: 24px;
+
+}
