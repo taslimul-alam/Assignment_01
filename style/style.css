@@ -4,26 +4,24 @@
     width: 100%;
     background-color: #FFFFFF;
     align-items: center;
+    justify-content: space-between;
 
 }
 #heading .logo{
     display: flex;
-    margin-top: 16px;
+    margin-top: 21px;
     margin-left: 120px;
     flex-direction: column;
 }
-.logo .pic{
-    margin-top: 7px;
-    margin-bottom: 7px;
-}
+
 #heading .description{
     display: flex;
     list-style-type: none;
     gap: 32px;
     margin-top: 34px;
-    margin-left: 346px;
-    margin-right: 346px;
-    font-size: 16px;
+    
+     
+    font-size: 20px;
     font-weight: 500;
     color: #000000;
     
@@ -39,6 +37,7 @@
     color: #FFFFFF;
     padding: 16px 12px;
     margin-top: 24px;
-    margin-bottom: 24px;
+   margin-right: 120px;
+    
 
 }
