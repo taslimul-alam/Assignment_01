@@ -2,6 +2,7 @@
     display: flex;
     max-width: 1600px;
     width: 100%;
+    margin: 0px auto;
     background-color: #FFFFFF;
     align-items: center;
     justify-content: space-between;
@@ -12,6 +13,7 @@
     margin-top: 21px;
     margin-left: 120px;
     flex-direction: column;
+    margin-bottom: 16px;
 }
 
 #heading .description{
@@ -24,6 +26,7 @@
     font-size: 20px;
     font-weight: 500;
     color: #000000;
+    margin-bottom: 34px;
     
 }
 #heading .btn{
@@ -38,6 +41,128 @@
     padding: 16px 12px;
     margin-top: 24px;
    margin-right: 120px;
+   margin-bottom: 24px; 
+
+
+}
+#banner .banner-content{
+
+    max-width: 1600px;
+    width: 100%;
+    height: 674px;
+
+    background-image: url('../assets/hero-bg.png');
+    text-align: center;
+    margin: 0px auto;
+    
+    
+}
+#banner .banner-content .head-button{
+    width: 229px;
+    background-color: #FFFFFF;
+    font-size: 16px;
+    font-weight: 500;
+    color: #30B868;
+    border-radius: 1000px;
+    margin-top: 115.5px;
+    margin-bottom: 16px;
+    height: 35px;
+}
+.banner-content .first,.second{
+    width: 650px;
+    margin-left: 415px;
+    margin-top: 16px;
+    font-size: 72px;
+    font-weight: 900;
+    color: #FFFFFF;
+}
+.banner-content .second{
+    font-size: 72px;
+    font-weight: 900;
+    color: #30B868;
+    margin-bottom: 16px;
+}
+.banner-content .first {
+    margin-bottom: 5px;
+}
+
+.banner-content .second {
+    margin-top: 0;
+}
+.banner-content .para, .para-2{
+   
+   
+    font-size: 18px;
+    font-weight: 500;
+    color: #FFFFFF;
     
 
+}
+.para {
+   margin-bottom: 5px;
+}
+.para-2{
+    
+    margin-bottom: 32px;
+}
+.button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+}
+.button .btn-1{
+    width: 251px;
+    border-radius: 4px;
+    height: 52px;
+    background-color: #30B868;
+    font-size: 16px;
+    font-weight: 500;
+    color: #FFFFFF;
+    margin-right: 16px;
+    border: none;
+   
+    display: flex;              
+    align-items: center;        
+    justify-content: center;      
+      gap: 8px;                  
+}
+    
+    
+
+
+.arrow{
+    width: 16px;
+    height: 16px;
+}
+.button .btn-2{
+    width: 251px;
+    border-radius: 4px;
+    height: 52px;
+    background-color: transparent;
+    font-size: 16px;
+    font-weight: 600;
+    color: #FFFFFF;
+    border: 2px solid #FFFFFF;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+
+
+}
+.fa-solid.fa-play {
+    margin-left: 16px;
+}
+.square{
+    width: 16px;
+    height: 16px;
+   border: red;
+
+}
+.circle{
+    border-radius: 1000px;
+    color: #0ed661;
+}
+#option{
+    text-align: center;
 }
