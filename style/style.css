@@ -1,3 +1,8 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 #heading{
     display: flex;
     max-width: 1600px;
@@ -153,16 +158,75 @@
 .fa-solid.fa-play {
     margin-left: 16px;
 }
-.square{
-    width: 16px;
-    height: 16px;
-   border: red;
 
-}
-.circle{
-    border-radius: 1000px;
-    color: #0ed661;
-}
 #option{
+    background-color: #ffffff;
+    margin: 0px auto ;
     text-align: center;
+    
+}
+#banner, #option{
+  margin: 0px auto 50px;
+}
+.op-hd{
+
+    font-size: 48px;
+    font-weight: bold;
+    color: #001931;
+    margin-bottom: 5px;
+}
+.op-p{
+    margin-top: 0px;
+    font-size: 16px;
+    font-weight: regular;
+    line-height: 26px;
+    color: #627382;
+    
+}
+.card{
+    display: flex;
+    gap: 24px;
+    margin-top: 44px;
+    padding-left: 120px;
+    padding-right: 120px;
+
+    
+    
+}
+.card .card-content{
+    width: 322px;
+    height: 300px;
+    stroke: #627382;
+    box-shadow: #000000;
+  
+    background-color: #ffffff;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+   /* padding: 146px 24px;*/
+}
+.card-content img{
+    background-color: #F95555;
+    padding: 10px;
+    border-radius: 50%;
+    margin-top: 70px;
+    margin-bottom: 16px;
+   
+   
+    
+}
+.card .card-content h1{
+    width: 274px;
+    font-size: 24px;
+    font-weight: 600;
+    color: #001931;
+    margin-left: 24px;
+    margin-right: 24px;
+}
+.card .card-content p{
+    width: 274px;
+    font-size: 16px;
+    font-weight: regular;
+    line-height: 20px;
+    color: #627382;
+    margin-left: 24px;
+    margin-right: 24px;
 }
